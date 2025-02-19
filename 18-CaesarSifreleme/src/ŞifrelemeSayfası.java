@@ -45,5 +45,6 @@ public class ŞifrelemeSayfası implements ActionListener {
         ŞifrelenmişMalzeme = ŞifrelenecekMalzeme.getText();
         BasamakdDeğeri = Integer.parseInt(BasamakGirdiDeğeri.getText());
         System.out.println(ŞifrelenmişMalzeme + BasamakdDeğeri);
+        JOptionPane.showMessageDialog(null,ŞifrelenmişMalzeme,"Şifrelendi",JOptionPane.PLAIN_MESSAGE);
     }
 }

@@ -3,5 +3,6 @@
 public class Main {
     public static void main(String[] args) {
        ŞifrelemeSayfası s = new ŞifrelemeSayfası();
+       ŞifreÇözmeSayfası a = new ŞifreÇözmeSayfası();
     }
 }
